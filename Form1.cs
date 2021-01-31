@@ -37,7 +37,7 @@ namespace SearchEGRUL_v2
         string sql;
         private void Form1_Load(object sender, EventArgs e)
         {
-            sql = @"SELECT        SostLic.slName, LicOrg.loName, VidLic.vlName, UL.Orgn, UL.Inn, Licenz.NumLic, Licenz.DtResh, Licenz.DtStart, Licenz.DtEnd, Licenz.DtStop, Licenz.DtStartNow, Licenz.MainLic, UL.IdUl
+            sql = @"SELECT        SostLic.slName, LicOrg.loName, VidLic.vlName, UL.Orgn, UL.Inn, Licenz.NumLic, Licenz.DtResh, Licenz.DtStart, Licenz.DtEnd, Licenz.DtStop, Licenz.DtStartNow,UL.IdUl
                      FROM            UL INNER JOIN
                          Licenz ON UL.IdUl = Licenz.idUl INNER JOIN
                          LicOrg ON Licenz.LicOrg = LicOrg.IdLicOrg INNER JOIN

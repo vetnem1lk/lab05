@@ -206,8 +206,8 @@
             // 
             // sqlConnection1
             // 
-            this.sqlConnection1.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\practicerepos\\EGRUL\\Klimen" +
-    "tev.mdf;Integrated Security=True;Replication=True;Connect Timeout=30";
+            this.sqlConnection1.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\MoneyLabs\\pesterev5\\pester" +
+    "ev.mdf;Integrated Security=True;Connect Timeout=30";
             this.sqlConnection1.FireInfoMessageEventOnUserErrors = false;
             // 
             // Form1

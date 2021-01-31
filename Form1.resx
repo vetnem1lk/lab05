@@ -121,7 +121,7 @@
     <value>17, 17</value>
   </metadata>
   <data name="sqlCommand1.CommandText" xml:space="preserve">
-    <value>SELECT        SostLic.slName, LicOrg.loName, VidLic.vlName, UL.Orgn, UL.Inn, Licenz.NumLic, Licenz.DtResh, Licenz.DtStart, Licenz.DtEnd, Licenz.DtStop, Licenz.DtStartNow, Licenz.MainLic, UL.IdUl
+    <value>SELECT        SostLic.slName, LicOrg.loName, VidLic.vlName, UL.Orgn, UL.Inn, Licenz.NumLic, Licenz.DtResh, Licenz.DtStart, Licenz.DtEnd, Licenz.DtStop, Licenz.DtStartNow, UL.IdUl
 FROM            UL INNER JOIN
                          Licenz ON UL.IdUl = Licenz.idUl INNER JOIN
                          LicOrg ON Licenz.LicOrg = LicOrg.IdLicOrg INNER JOIN
